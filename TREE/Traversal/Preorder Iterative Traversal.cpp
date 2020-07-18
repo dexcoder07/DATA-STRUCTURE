@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-int count=1;
-
 
 //STRUCTURE CREATION
 
@@ -40,7 +38,7 @@ Node* create()
 
 
 
-//Iterative Inorder Traversal
+//Iterative Preorder Traversal
 
 
 void Preorder(Node* head)
