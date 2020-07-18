@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int count=1;
+
 
 
 //STRUCTURE CREATION
@@ -75,6 +75,6 @@ int main(void)
 	Node* root=NULL;
 	root=create();
 	
-	postorder(root);
+	Inorder(root);
 	return 0;
 }
