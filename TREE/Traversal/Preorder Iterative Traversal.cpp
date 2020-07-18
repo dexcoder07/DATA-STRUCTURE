@@ -31,9 +31,9 @@ Node* create()
     }
     cout<<"Enter left Node of :"<<data<<endl;
     new_node->left=create();
-	cout<<"Enter Right Node of:"<<data<<endl;;
-	new_node->right=create();
-	return new_node;
+    cout<<"Enter Right Node of:"<<data<<endl;;
+    new_node->right=create();
+return new_node;
 }
 
 
