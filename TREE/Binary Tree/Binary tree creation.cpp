@@ -45,7 +45,6 @@ int main(void)
 	Node* root=NULL;
 	root=create();
 	
-	preorder(root);
 	return 0;
 }
 
